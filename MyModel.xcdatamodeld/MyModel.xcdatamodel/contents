@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="13B42" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Kingdom" representedClassName="Kingdom" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="heros" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="XHero" inverseName="heroInfo" inverseEntity="XHero" syncable="YES"/>
+        <relationship name="master" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="XHero" inverseName="masterInfo" inverseEntity="XHero" syncable="YES"/>
+    </entity>
+    <entity name="XHero" representedClassName="XHero" syncable="YES">
+        <attribute name="image" optional="YES" attributeType="Transformable" valueTransformerName="UIImageToDataTransformer" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="number" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="role" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="secondname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="story" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="heroInfo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Kingdom" inverseName="heros" inverseEntity="Kingdom" syncable="YES"/>
+        <relationship name="masterInfo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Kingdom" inverseName="master" inverseEntity="Kingdom" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Kingdom" positionX="-20" positionY="254" width="128" height="88"/>
+        <element name="XHero" positionX="-225" positionY="198" width="128" height="148"/>
+    </elements>
+</model>

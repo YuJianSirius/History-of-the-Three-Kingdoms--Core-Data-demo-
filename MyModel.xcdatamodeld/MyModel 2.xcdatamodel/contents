@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="13B42" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Kingdom" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="heros" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="XHero" inverseName="heroinfo" inverseEntity="XHero" syncable="YES"/>
+    </entity>
+    <entity name="XHero" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="number" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="role" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="story" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="heroinfo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Kingdom" inverseName="heros" inverseEntity="Kingdom" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="XHero" positionX="-45" positionY="162" width="128" height="118"/>
+        <element name="Kingdom" positionX="151" positionY="183" width="128" height="73"/>
+    </elements>
+</model>

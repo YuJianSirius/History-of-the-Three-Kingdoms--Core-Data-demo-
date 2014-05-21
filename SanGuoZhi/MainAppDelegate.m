@@ -7,17 +7,28 @@
 //
 
 #import "MainAppDelegate.h"
+#import "DBManger.h"
 
 @implementation MainAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     // Override point for customization after application launch.
+    //DBManger *DB = [[DBManger alloc] init];
+    //[DB testarray];
+    //[DB insertData];
+    
+    /*
+    NSDictionary *dir = [[NSBundle mainBundle] infoDictionary];
+    NSLog(@"DIR%@",dir);
+    */
+     
     return YES;
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
-{
+{    
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
 }
