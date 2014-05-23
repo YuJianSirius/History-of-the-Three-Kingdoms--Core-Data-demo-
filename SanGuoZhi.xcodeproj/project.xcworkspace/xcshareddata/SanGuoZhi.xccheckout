@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B79043D3-2658-4C11-BCB4-B20CE92269C6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SanGuoZhi</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7A361E28-C7CD-4ED4-8F3D-EF3A83B7EE4C</key>
+		<string>https://github.com/YuJianSirius/History-of-the-Three-Kingdoms--Core-Data-demo-.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SanGuoZhi.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7A361E28-C7CD-4ED4-8F3D-EF3A83B7EE4C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/YuJianSirius/History-of-the-Three-Kingdoms--Core-Data-demo-.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7A361E28-C7CD-4ED4-8F3D-EF3A83B7EE4C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7A361E28-C7CD-4ED4-8F3D-EF3A83B7EE4C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SanGuoZhi</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -50,6 +50,7 @@
 		9176DF5918DC84750041D5C1 /* StoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9176DF5818DC84750041D5C1 /* StoryViewController.m */; };
 		91989E7618DD6579001F8305 /* DBManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 91989E7518DD6579001F8305 /* DBManger.m */; };
 		91989E7818DD67D4001F8305 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91989E7718DD67D4001F8305 /* CoreData.framework */; };
+		91DE2F14192F900900FFE716 /* WuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DE2F13192F900900FFE716 /* WuTableViewController.m */; };
 		91DE792818E3C6BB005398AE /* XHero.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DE792718E3C6BB005398AE /* XHero.m */; };
 		91F7C07818E05467003A760F /* Kingdom.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F7C07718E05467003A760F /* Kingdom.m */; };
 		91F7C07B18E05494003A760F /* UIImageToDataTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F7C07A18E05494003A760F /* UIImageToDataTransformer.m */; };
@@ -122,6 +123,8 @@
 		91989E7418DD6579001F8305 /* DBManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBManger.h; path = ../DBManger.h; sourceTree = "<group>"; };
 		91989E7518DD6579001F8305 /* DBManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBManger.m; path = ../DBManger.m; sourceTree = "<group>"; };
 		91989E7718DD67D4001F8305 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		91DE2F12192F900900FFE716 /* WuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WuTableViewController.h; sourceTree = "<group>"; };
+		91DE2F13192F900900FFE716 /* WuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WuTableViewController.m; sourceTree = "<group>"; };
 		91DE792618E3C6BB005398AE /* XHero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHero.h; sourceTree = "<group>"; };
 		91DE792718E3C6BB005398AE /* XHero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHero.m; sourceTree = "<group>"; };
 		91F7C07618E05467003A760F /* Kingdom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kingdom.h; sourceTree = "<group>"; };
@@ -246,6 +249,8 @@
 				9154253818D950F000E2DA64 /* Hero.m */,
 				9154253418D9490A00E2DA64 /* WeiTableViewController.h */,
 				9154253518D9490A00E2DA64 /* WeiTableViewController.m */,
+				91DE2F12192F900900FFE716 /* WuTableViewController.h */,
+				91DE2F13192F900900FFE716 /* WuTableViewController.m */,
 				9154253118D948C600E2DA64 /* MainTableViewController.h */,
 				9154253218D948C600E2DA64 /* MainTableViewController.m */,
 				9154250918D93D7500E2DA64 /* Main_iPhone.storyboard */,
@@ -438,6 +443,7 @@
 				9176DF5918DC84750041D5C1 /* StoryViewController.m in Sources */,
 				9154250818D93D7500E2DA64 /* MainAppDelegate.m in Sources */,
 				91DE792818E3C6BB005398AE /* XHero.m in Sources */,
+				91DE2F14192F900900FFE716 /* WuTableViewController.m in Sources */,
 				91F7C07B18E05494003A760F /* UIImageToDataTransformer.m in Sources */,
 				9154253618D9490A00E2DA64 /* WeiTableViewController.m in Sources */,
 				9154254718D96E8800E2DA64 /* ShuTableViewController.m in Sources */,
