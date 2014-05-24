@@ -52,6 +52,7 @@
 		91989E7818DD67D4001F8305 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91989E7718DD67D4001F8305 /* CoreData.framework */; };
 		91DE2F14192F900900FFE716 /* WuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DE2F13192F900900FFE716 /* WuTableViewController.m */; };
 		91DE792818E3C6BB005398AE /* XHero.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DE792718E3C6BB005398AE /* XHero.m */; };
+		91ED1DBC1930ECE00024C95E /* dongwu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91ED1DBB1930ECE00024C95E /* dongwu.plist */; };
 		91F7C07818E05467003A760F /* Kingdom.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F7C07718E05467003A760F /* Kingdom.m */; };
 		91F7C07B18E05494003A760F /* UIImageToDataTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F7C07A18E05494003A760F /* UIImageToDataTransformer.m */; };
 /* End PBXBuildFile section */
@@ -127,6 +128,7 @@
 		91DE2F13192F900900FFE716 /* WuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WuTableViewController.m; sourceTree = "<group>"; };
 		91DE792618E3C6BB005398AE /* XHero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHero.h; sourceTree = "<group>"; };
 		91DE792718E3C6BB005398AE /* XHero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHero.m; sourceTree = "<group>"; };
+		91ED1DBB1930ECE00024C95E /* dongwu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = dongwu.plist; path = ../dongwu.plist; sourceTree = "<group>"; };
 		91F7C07618E05467003A760F /* Kingdom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kingdom.h; sourceTree = "<group>"; };
 		91F7C07718E05467003A760F /* Kingdom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kingdom.m; sourceTree = "<group>"; };
 		91F7C07918E05494003A760F /* UIImageToDataTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIImageToDataTransformer.h; path = ../UIImageToDataTransformer.h; sourceTree = "<group>"; };
@@ -311,6 +313,7 @@
 				9154253F18D96BED00E2DA64 /* 4.png */,
 				9154252F18D93DAB00E2DA64 /* caowei.plist */,
 				912FAA12191B1F6F000DF2AF /* shuhan.plist */,
+				91ED1DBB1930ECE00024C95E /* dongwu.plist */,
 			);
 			path = "三国志 ";
 			sourceTree = "<group>";
@@ -394,6 +397,7 @@
 			files = (
 				91154CA3191682FB0019D571 /* 12.png in Resources */,
 				91154CA1191682FB0019D571 /* 10.png in Resources */,
+				91ED1DBC1930ECE00024C95E /* dongwu.plist in Resources */,
 				91154CA5191682FB0019D571 /* 14.png in Resources */,
 				9154254018D96BED00E2DA64 /* 0.png in Resources */,
 				9125A86C18E51979001FF9FC /* header_bg.png in Resources */,
