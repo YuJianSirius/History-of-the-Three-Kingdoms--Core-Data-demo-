@@ -20,5 +20,10 @@
     // Do any additional setup after loading the view.
 }
 
+-(void)initData
+{
+    
+    NSArray *herosPlist = [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"dongwu" ofType:@"plist"]];
+}
 
 @end
